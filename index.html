@@ -10,7 +10,7 @@
         <h1>PRIN-135: HTML Cheatsheet</h1>
         <ul>
             <a href="#headers"><li>HTML Headers</li></a>
-            <a href=""><li>HTML Typography</li></a>
+            <a href="#typography"><li>HTML Typography</li></a>
             <a href=""><li>HTML Formatting</li></a>
             <a href=""><li>HTML Media</li></a>
             <a href=""><li>HTML Table</li></a>
@@ -64,6 +64,109 @@
                 </tbody>
             </table>
         </section>
+
+        <section id="#typography">
+            <h1>HTML Typography <a href="#top">(top)</a></h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Markup</th>
+                        <th>Output</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Paragraph</td>
+                        <td>&lt;p&gt;This is paragraph&lt;p&gt;</td>
+                        <td><p>This is paragraph</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Span</td>
+                        <td>&lt;span&gt;This is span. &lt;/span&gt;</td>
+                        <td>This is span.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Link</td>
+                        <td>&lt;a href ="#"&gt;This is a link &lt;/a href "#"&gt;</td>
+                        <td><a href="#">This is a link </a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ordered List</td>
+                        <td>&lt;ol&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 1&lt;/li&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 2&lt;/li&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 3&lt;/li&gt;
+                            <br>&lt;/ol&gt;</td>
+                        <td><ol>
+                            <li>Step 1</li>
+                            <li>Step 2</li>
+                            <li>Step 3</li>
+                        </ol></td>
+                    </tr>
+
+                    <tr>
+                        <td>Unordered List</td>
+                        <td>
+                            &lt;ul&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 3&lt;/li&gt;
+                            <br>&lt;/ul&gt;
+                        </td>
+
+                        <td>
+                            <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td>Horizontal Rule</td>
+                        <td>This content is above the Horizontal Rule <br>
+                            &lt;hr&gt; <br>
+                            This content is below the Horizontal rule
+                        </td>
+                        <td>This content is above the Horizontal rule 
+                            <hr>
+                            This content is below the Horizontal Rule
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Break Line</td>
+                        <td>This content has a &lt;br&gt; break line.</td>
+                        <td>This content has <br> break line. </td>
+                    </tr>
+
+                    <tr>
+                        <td>Performat Text</td>
+                        <td>&lt;pre&gt; This content preserves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; white spaces and break lines. </td>
+                        <td><pre>This contetnt preserves         white spaces and breakilines.</pre></td>
+                    </tr>
+
+                    <td>Computer Code</td>
+                    <td>&lt;code&gt;
+                        <br> &nbsp;&nbsp;&nbsp;console.WriteLine("Hello World!");
+                        <br>&lt;/code&gt;
+                    </td>
+                    <td>
+                        <code>
+                            Console.WriteLine("Hello World!");
+                        </code>
+                    </td>
+
+                </tbody>
+            </table>
+        </section>
+
 
 
     </body>
