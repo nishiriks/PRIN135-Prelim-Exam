@@ -236,11 +236,10 @@
 
         <section id="media">
             <h1>HTML Media <a href="#top">(top)</a></h1>
-
-              <table border="1">
+            <table border="1">
                 <thead>
                     <tr>
-                        <th>Desciption</th>
+                        <th>Description</th>
                         <th>Markup</th>
                         <th>Output</th>
                     </tr>
@@ -249,23 +248,58 @@
                 <tbody>
                     <tr>
                         <td>Image</td>
+                        <td>
+                            &lt;img src="source.jpg" alt="alternate text&gt;"
+                        </td>
+                        <td>
+                            <img src="https://fastly.picsum.photos/id/0/320/240.jpg?hmac=ljvD92WQ_QjF5dq_2X6Mxa_F9Nsqbb8x9QPeP3pFitU" alt="this is a computer">
+                        </td>
                     </tr>
-
                     <tr>
                         <td>Video</td>
+                        <td>
+                            &lt;video width="320" height="240" controls&gt; <br>
+                                 &lt;source src="source.mp4" type="video/mp4"&gt; <br>
+                                 &lt;source src="source.ogg" type="video/ogg"&gt; <br>
+                                 Your browser does not support the video tag. <br>
+                            &lt;/video&gt;
+                        </td>
+                        <td>
+                            <video width="320" height="240" controls>
+                                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </td>
                     </tr>
-
                     <tr>
                         <td>Audio</td>
+                        <td>
+                            &lt;audio controls&gt; <br>
+                                 &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
+                                 &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
+                                 Your browser does not support the audio element. <br>
+                            &lt;/audio&gt;
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
+                                <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
                     </tr>
-
                     <tr>
                         <td>IFrame</td>
+                        <td>
+                            &lt;iframe src="url"&gt;&lt;/iframe&gt;
+                        </td>
+                        <td>
+                            <iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe>
+                        </td>
                     </tr>
                 </tbody>
-            
-              </table> 
-
+            </table>
         </section>
 
        
