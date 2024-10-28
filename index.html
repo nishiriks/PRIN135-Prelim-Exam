@@ -4,397 +4,356 @@
         <style>
             h1 { font-size: 2em; }
            </style>
+           <link rel="stylesheet" href="style.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
            <title>PRIN135-Prelim Exam</title>
     </head>
     <body>
-        <h1>PRIN-135: HTML Cheatsheet</h1>
-        <ul>
-            <a href="#headers"><li>HTML Headers</li></a>
+        
+        <!-- <ul>
+            <a href="#header"><li>HTML Headers</li></a>
             <a href="#typography"><li>HTML Typography</li></a>
             <a href="#formatting"><li>HTML Formatting</li></a>
             <a href="#media"><li>HTML Media</li></a>
             <a href="#table"><li>HTML Table</li></a>
            <a href="#formelements"><li>HTML Forms</li></a>
-        </ul>
+        </ul> -->
 
+        <div class="sidebar">
+            <h1>PRIN-135: HTML Cheatsheet</h1>
 
-        <section id="headers">
-            <h1>HTML Headers <a href="#top">(top)</a></h1>
+            <nav>
+                <a href="#header">HTML Headers</a>
+                <a href="#typography">HTML Typography</a>
+                <a href="#formatting">HTML Formatting</a>
+                <a href="#media">HTML Media</a>
+                <a href="#table">HTML Table</a>
+               <a href="#formelements">HTML Forms</a>
+            </nav>
+        
+           <footer>
+                <p>PRIN135 Midterm Exam - <a href="https://github.com/nishiriks">@nishiriks</a></p>
+           </footer>
+        </div>
 
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Desciption</th>
-                        <th>Markup</th>
-                        <th>Output</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Heading 1</td>
-                        <td>&lt;h1&gt;Heading 1&lt;/h1&gt;</td>
-                        <td><h1>Heading 1</h1></td>
-                    </tr>
-                    <tr>
-                        <td>Heading 2</td>
-                        <td>&lt;h2&gt;Heading 2&lt;/h2&gt;</td>
-                        <td><h2>Heading 2</h2></td>
-                    </tr>
-                    <tr>
-                        <td>Heading 3</td>
-                        <td>&lt;h3&gt;Heading 3&lt;/h3&gt;</td>
-                        <td><h3>Heading 3</h3></td>
-                    </tr>
-                    <tr>
-                        <td>Heading 4</td>
-                        <td>&lt;h4&gt;Heading 4&lt;/h4&gt;</td>
-                        <td><h4>Heading 4</h4></td>
-                    </tr>
-                    <tr>
-                        <td>Heading 5</td>
-                        <td>&lt;h5&gt;Heading 5&lt;/h5&gt;</td>
-                        <td><h5>Heading 5</h5></td>
-                    </tr>
-                    <tr>
-                        <td>Heading 6</td>
-                        <td>&lt;h6&gt;Heading 6&lt;/h6&gt;</td>
-                        <td><h6>Heading 6</h6></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section id="typography">
-            <h1>HTML Typography <a href="#top">(top)</a></h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Description</th>
-                        <th>Markup</th>
-                        <th>Output</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Paragraph</td>
-                        <td>&lt;p&gt;This is paragraph&lt;p&gt;</td>
-                        <td><p>This is paragraph</p></td>
-                    </tr>
-
-                    <tr>
-                        <td>Span</td>
-                        <td>&lt;span&gt;This is span. &lt;/span&gt;</td>
-                        <td>This is span.</td>
-                    </tr>
-
-                    <tr>
-                        <td>Link</td>
-                        <td>&lt;a href ="#"&gt;This is a link &lt;/a href "#"&gt;</td>
-                        <td><a href="#">This is a link </a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Ordered List</td>
-                        <td>&lt;ol&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 1&lt;/li&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 2&lt;/li&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 3&lt;/li&gt;
-                            <br>&lt;/ol&gt;</td>
-                        <td><ol>
-                            <li>Step 1</li>
-                            <li>Step 2</li>
-                            <li>Step 3</li>
-                        </ol></td>
-                    </tr>
-
-                    <tr>
-                        <td>Unordered List</td>
-                        <td>
-                            &lt;ul&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 3&lt;/li&gt;
-                            <br>&lt;/ul&gt;
+        <div class ="container">
+            <section id="header">
+                <h1>HTML Headers <a href="#top">(top)</a></h1>
+    
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Desciption</th>
+                            <th>Markup</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Heading 1</td>
+                            <td>&lt;h1&gt;Heading 1&lt;/h1&gt;</td>
+                            <td><h1>Heading 1</h1></td>
+                        </tr>
+                        <tr>
+                            <td>Heading 2</td>
+                            <td>&lt;h2&gt;Heading 2&lt;/h2&gt;</td>
+                            <td><h2>Heading 2</h2></td>
+                        </tr>
+                        <tr>
+                            <td>Heading 3</td>
+                            <td>&lt;h3&gt;Heading 3&lt;/h3&gt;</td>
+                            <td><h3>Heading 3</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Heading 4</td>
+                            <td>&lt;h4&gt;Heading 4&lt;/h4&gt;</td>
+                            <td><h4>Heading 4</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Heading 5</td>
+                            <td>&lt;h5&gt;Heading 5&lt;/h5&gt;</td>
+                            <td><h5>Heading 5</h5></td>
+                        </tr>
+                        <tr>
+                            <td>Heading 6</td>
+                            <td>&lt;h6&gt;Heading 6&lt;/h6&gt;</td>
+                            <td><h6>Heading 6</h6></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="typography">
+                <h1>HTML Typography <a href="#top">(top)</a></h1>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Markup</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Paragraph</td>
+                            <td>&lt;p&gt;This is paragraph&lt;p&gt;</td>
+                            <td><p>This is paragraph</p></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Span</td>
+                            <td>&lt;span&gt;This is span. &lt;/span&gt;</td>
+                            <td>This is span.</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Link</td>
+                            <td>&lt;a href ="#"&gt;This is a link &lt;/a href "#"&gt;</td>
+                            <td><a href="#">This is a link </a></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Ordered List</td>
+                            <td>&lt;ol&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 1&lt;/li&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 2&lt;/li&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 3&lt;/li&gt;
+                                <br>&lt;/ol&gt;</td>
+                            <td><ol>
+                                <li>Step 1</li>
+                                <li>Step 2</li>
+                                <li>Step 3</li>
+                            </ol></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Unordered List</td>
+                            <td>
+                                &lt;ul&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 3&lt;/li&gt;
+                                <br>&lt;/ul&gt;
+                            </td>
+    
+                            <td>
+                                <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
                         </td>
-
-                        <td>
-                            <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
-                    </td>
-                    </tr>
-
-                    <tr>
-                        <td>Horizontal Rule</td>
-                        <td>This content is above the Horizontal Rule <br>
-                            &lt;hr&gt; <br>
-                            This content is below the Horizontal rule
-                        </td>
-                        <td>This content is above the Horizontal rule 
-                            <hr>
-                            This content is below the Horizontal Rule
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Break Line</td>
-                        <td>This content has a &lt;br&gt; break line.</td>
-                        <td>This content has <br> break line. </td>
-                    </tr>
-
-                    <tr>
-                        <td>Performat Text</td>
-                        <td>&lt;pre&gt; This content preserves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; white spaces and break lines. </td>
-                        <td><pre>This contetnt preserves         white spaces and breakilines.</pre></td>
-                    </tr>
-
-                    <td>Computer Code</td>
-                    <td>&lt;code&gt;
-                        <br> &nbsp;&nbsp;&nbsp;console.WriteLine("Hello World!");
-                        <br>&lt;/code&gt;
-                    </td>
-                    <td>
-                        <code>
-                            Console.WriteLine("Hello World!");
-                        </code>
-                    </td>
-
-                </tbody>
-            </table>
-        </section>
-
-        <section id="formatting">
-            <h1>HTML Formatting <a href="#top">(top)</a></h1>
-
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Desciption</th>
-                        <th>Markup</th>
-                        <th>Output</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Bold/Strong</td>
-                        <td>&lt;strong&gt;Bold Text&lt;/strong&gt;</td>
-                        <td><strong>Emphasized Text</strong></td>
-                    </tr>
-
-                    <tr>
-                        <td>Italized/Emphasized</td>
-                        <td>&lt;em&gt;This is emphasized text&lt;/em&gt;</td>
-                        <td><em>Emphasized Text</em></td>
-                    </tr>
-
-                    <tr>
-                        <td>Small Text</td>
-                        <td>This is normal text. <br>
-                        &lt;small&gt;This is smaller text &lt;/small&gt;
-                        </td>
-                        <td>This is normal size text. <br><small>This is smaller text.</small></td>
-                    </tr>
-
-                    <tr>
-                        <td>Marked Text</td>
-                        <td>This is a &lt;mark&gt;marked &lt;/mark&gt; </td>
-                        <td>This is a <mark>marked</mark></td>
-                    </tr>
-
-
-                    <tr>
-                        <td>Deleted text</td>
-                        <td>This is a &lt;del&gt;deleted text &lt;/del&gt;</td>
-                        <td>This is a <del>deleted</del> text</td>
-                    </tr>
-
-                    <tr>
-                        <td>Inserted Text</td>
-                        <td>This is a &lt;ins&gt;inserted &lt;/ins&gt;</td>
-                        <td>This an <ins>inserted</ins>text</td>
-                    </tr>
-
-                    <tr>
-                        <td>Subscript Text</td>
-                        <td>This is a &lt;sub&gt;subscripted &lt;/sub&gt;</td>
-                        <td>This is a <sub>subscripted text</sub></td>
-                    </tr>
-
-                    <tr>
-                        <td>Superscript</td>
-                        <td>This is a &lt;sup&gt;superscripted &lt;/sup&gt;</td>
-                        <td>This is a <sup>superscripted</sup> text</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section id="media">
-            <h1>HTML Media <a href="#top">(top)</a></h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Description</th>
-                        <th>Markup</th>
-                        <th>Output</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Image</td>
-                        <td>
-                            &lt;img src="source.jpg" alt="alternate text&gt;"
+                        </tr>
+    
+                        <tr>
+                            <td>Horizontal Rule</td>
+                            <td>This content is above the Horizontal Rule <br>
+                                &lt;hr&gt; <br>
+                                This content is below the Horizontal rule
+                            </td>
+                            <td>This content is above the Horizontal rule 
+                                <hr>
+                                This content is below the Horizontal Rule
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>Break Line</td>
+                            <td>This content has a &lt;br&gt; break line.</td>
+                            <td>This content has <br> break line. </td>
+                        </tr>
+    
+                        <tr>
+                            <td>Performat Text</td>
+                            <td>&lt;pre&gt; This content preserves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; white spaces and break lines. </td>
+                            <td><pre>This contetnt preserves         white spaces and breakilines.</pre></td>
+                        </tr>
+    
+                        <td>Computer Code</td>
+                        <td>&lt;code&gt;
+                            <br> &nbsp;&nbsp;&nbsp;console.WriteLine("Hello World!");
+                            <br>&lt;/code&gt;
                         </td>
                         <td>
-                            <img src="https://fastly.picsum.photos/id/0/320/240.jpg?hmac=ljvD92WQ_QjF5dq_2X6Mxa_F9Nsqbb8x9QPeP3pFitU" alt="this is a computer">
+                            <code>
+                                Console.WriteLine("Hello World!");
+                            </code>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>Video</td>
-                        <td>
-                            &lt;video width="320" height="240" controls&gt; <br>
-                                 &lt;source src="source.mp4" type="video/mp4"&gt; <br>
-                                 &lt;source src="source.ogg" type="video/ogg"&gt; <br>
-                                 Your browser does not support the video tag. <br>
-                            &lt;/video&gt;
-                        </td>
-                        <td>
-                            <video width="320" height="240" controls>
-                                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
-                                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.ogg" type="video/ogg">
-                                Your browser does not support the video tag.
-                            </video>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Audio</td>
-                        <td>
-                            &lt;audio controls&gt; <br>
-                                 &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
-                                 &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
-                                 Your browser does not support the audio element. <br>
-                            &lt;/audio&gt;
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
-                                <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
-                                Your browser does not support the audio element.
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>IFrame</td>
-                        <td>
-                            &lt;iframe src="url"&gt;&lt;/iframe&gt;
-                        </td>
-                        <td>
-                            <iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section id="table">
-            <h1>HTML Table <a href="#top">(top)</a></h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Description</th>
-                        <th>Markup</th>
-                        <th>Example</th>
-                        <th>Output</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Table</td>
-                        <td>&lt;table&gt;&lt;/table&gt;</td>
-                        <td rowspan="3">
-                            <br>
-                            &lt;table border="1"&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 1&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 2&lt;/td&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 1&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 2&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &lt;/table&gt;
-                        </td>
-                        <td rowspan="3">
-                            <table border>
-                                <tr>
-                                    <td>Row 1 Column 1</td>
-                                    <td>Row 1 Column 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Row 2 Column 1</td>
-                                    <td>Row 2 Column 2</td>
-                                </tr>
-                            </table>
-                        </td>
-
-                    </tr>
-
-                    <tr>
-                        <td>Table Row</td>
-                        <td>&lt;tr&gt;&lt;/tr&gt;</td>
-                    </tr>
-
-                    <tr>
-                        <td>Table Data</td>
-                        <td>&lt;td&gt;&lt;/td&gt;</td>
-                    </tr>
-
-                    <tr>
-                        <td>Table Head</td>
-                        <td>&lt;thead&gt;&lt;/thead&gt;</td>
-                        <td rowspan="4">
-                            <br>
-                            &lt;table border="1"&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/thead&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tbody&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 1&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 2&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 1&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 2&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tbody&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tfoot&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Column 1 Footer&lt;/td&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Column 2 Footer&lt;/td&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tfoot&gt;<br>
-                            &lt;/table&gt;
-                        </td>
-                        <td rowspan="4">
-                            <table border>
-                                <thead>
-                                    <tr>
-                                        <th>Column 1</th>
-                                        <th>Column 2</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
+    
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="formatting">
+                <h1>HTML Formatting <a href="#top">(top)</a></h1>
+    
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Desciption</th>
+                            <th>Markup</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Bold/Strong</td>
+                            <td>&lt;strong&gt;Bold Text&lt;/strong&gt;</td>
+                            <td><strong>Emphasized Text</strong></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Italized/Emphasized</td>
+                            <td>&lt;em&gt;This is emphasized text&lt;/em&gt;</td>
+                            <td><em>Emphasized Text</em></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Small Text</td>
+                            <td>This is normal text. <br>
+                            &lt;small&gt;This is smaller text &lt;/small&gt;
+                            </td>
+                            <td>This is normal size text. <br><small>This is smaller text.</small></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Marked Text</td>
+                            <td>This is a &lt;mark&gt;marked &lt;/mark&gt; </td>
+                            <td>This is a <mark>marked</mark></td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td>Deleted text</td>
+                            <td>This is a &lt;del&gt;deleted text &lt;/del&gt;</td>
+                            <td>This is a <del>deleted</del> text</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Inserted Text</td>
+                            <td>This is a &lt;ins&gt;inserted &lt;/ins&gt;</td>
+                            <td>This an <ins>inserted</ins>text</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Subscript Text</td>
+                            <td>This is a &lt;sub&gt;subscripted &lt;/sub&gt;</td>
+                            <td>This is a <sub>subscripted text</sub></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Superscript</td>
+                            <td>This is a &lt;sup&gt;superscripted &lt;/sup&gt;</td>
+                            <td>This is a <sup>superscripted</sup> text</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="media">
+                <h1>HTML Media <a href="#top">(top)</a></h1>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Markup</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Image</td>
+                            <td>
+                                &lt;img src="source.jpg" alt="alternate text&gt;"
+                            </td>
+                            <td>
+                                <img src="https://fastly.picsum.photos/id/0/320/240.jpg?hmac=ljvD92WQ_QjF5dq_2X6Mxa_F9Nsqbb8x9QPeP3pFitU" alt="this is a computer">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Video</td>
+                            <td>
+                                &lt;video width="320" height="240" controls&gt; <br>
+                                     &lt;source src="source.mp4" type="video/mp4"&gt; <br>
+                                     &lt;source src="source.ogg" type="video/ogg"&gt; <br>
+                                     Your browser does not support the video tag. <br>
+                                &lt;/video&gt;
+                            </td>
+                            <td>
+                                <video width="320" height="240" controls>
+                                    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                                    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Audio</td>
+                            <td>
+                                &lt;audio controls&gt; <br>
+                                     &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
+                                     &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
+                                     Your browser does not support the audio element. <br>
+                                &lt;/audio&gt;
+                            </td>
+                            <td>
+                                <audio controls>
+                                    <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
+                                    <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>IFrame</td>
+                            <td>
+                                &lt;iframe src="url"&gt;&lt;/iframe&gt;
+                            </td>
+                            <td>
+                                <iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="table">
+                <h1>HTML Table <a href="#top">(top)</a></h1>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Markup</th>
+                            <th>Example</th>
+                            <th>Output</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Table</td>
+                            <td>&lt;table&gt;&lt;/table&gt;</td>
+                            <td rowspan="3">
+                                <br>
+                                &lt;table border="1"&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 2&lt;/td&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 2&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &lt;/table&gt;
+                            </td>
+                            <td rowspan="3">
+                                <table border="1" class="tableOut">
                                     <tr>
                                         <td>Row 1 Column 1</td>
                                         <td>Row 1 Column 2</td>
@@ -403,116 +362,181 @@
                                         <td>Row 2 Column 1</td>
                                         <td>Row 2 Column 2</td>
                                     </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td>Column 1 Footer</td>
-                                        <td>Column 2 Footer</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
+                                </table>
+                            </td>
+    
+                        </tr>
+    
+                        <tr>
+                            <td>Table Row</td>
+                            <td>&lt;tr&gt;&lt;/tr&gt;</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Table Data</td>
+                            <td>&lt;td&gt;&lt;/td&gt;</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Table Head</td>
+                            <td>&lt;thead&gt;&lt;/thead&gt;</td>
+                            <td rowspan="4">
+                                <br>
+                                &lt;table border="1"&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/thead&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tbody&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 1 Column 2&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 1&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2 Column 2&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tbody&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tfoot&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Column 1 Footer&lt;/td&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Column 2 Footer&lt;/td&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tfoot&gt;<br>
+                                &lt;/table&gt;
+                            </td>
+                            <td rowspan="4">
+                                <table border="1" class="tableOut">
+                                    <thead>
+                                        <tr>
+                                            <th>Column 1</th>
+                                            <th>Column 2</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Row 1 Column 1</td>
+                                            <td>Row 1 Column 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Row 2 Column 1</td>
+                                            <td>Row 2 Column 2</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td>Column 1 Footer</td>
+                                            <td>Column 2 Footer</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>Table Head Cell</td>
+                            <td>&lt;th&gt;&lt;/th&gt;</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Table Body</td>
+                            <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Table Footer</td>
+                            <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="formelements">
+            <h1>HTML Form Elements <a href="#top">(top)</a></h1>
+            <table border="1">
+                <tr>
+                    <th>Description</th>
+                    <th>Markup</th>
+                    <th>Output</th>
+                </tr>
+    
+                <tbody>
+                    <tr>
+                        <td>Label</td>
+                        <td><p>&lt;label for=&quot;input-id&quot;&gt;Label:&lt;/label&gt;</p>
+                        </td>
+                        <td><label for ="input-id">Label:</label></td>
+                    </tr>
+                    <tr>
+                        <td>Input - Textbox</td>
+                        <td><p>&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;</p>
+                        </td>
+                        <td><input type= "text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Input - Number</td>
+                        <td><p>&lt;input type=&quot;number&quot; name=&quot;name&quot;&gt;</p></td>
+                        <td><input type= "number" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Input - Password</td>
+                        <td><p>&lt;input type=&quot;password&quot; name=&quot;name&quot;&gt;</p></td>
+                        <td><input type= "password" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Input - Checkbox</td>
+                        <td><p>&lt;input type=&quot;checkbox&quot; name=&quot;name&quot;&gt; Check me</p></td>
+                        <td><input type= "checkbox" name="name"> Check me</td>
+                    </tr>
+                    <tr>
+                        <td>Input - Radio</td>
+                        <td><p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 1</p>
+                            <p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 2</p>
+                        </td>
+                        <td><input type= "radio" name="name"> Option 1
+                        <input type= "radio" name="name"> Option 2
                         </td>
                     </tr>
-
                     <tr>
-                        <td>Table Head Cell</td>
-                        <td>&lt;th&gt;&lt;/th&gt;</td>
+                        <td>Input - Submit</td>
+                        <td><p>&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</p></td>
+                        <td>	
+                            <input type="submit" value="Submit"></td>
                     </tr>
-
                     <tr>
-                        <td>Table Body</td>
-                        <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+                        <td>Input - Button</td>
+                        <td><p>&lt;input type=&quot;button&quot; value=&quot;Click Me&quot;&gt;</p></td>
+                        <td><input type="button" value="Click Me"></td>
                     </tr>
-
                     <tr>
-                        <td>Table Footer</td>
-                        <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                        <td>Select</td>
+                        <td><p>
+                            &lt;select name=&quot;name&quot;&gt;<br>
+                            &nbsp;&nbsp;&lt;option value=&quot;option1&quot;&gt;Option 1&lt;/option&gt;<br>
+                            &nbsp;&nbsp;&lt;option value=&quot;option2&quot;&gt;Option 2&lt;/option&gt;<br>
+                            &nbsp;&nbsp;&lt;option value=&quot;option3&quot;&gt;Option 3&lt;/option&gt;<br>
+                            &lt;/select&gt;
+                        </p></td>
+                        <td><select name="name">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Textarea</td>
+                        <td><p>
+                            &lt;textarea name=&quot;name&quot;&gt;Textarea here&lt;/textarea&gt;
+                        </p></td>
+                        <td><textarea name="name">Textarea here</textarea></td>
                     </tr>
                 </tbody>
             </table>
         </section>
-
-        <section id="formelements"></section>
-        <h1>HTML Form Elements <a href="#top">(top)</a></h1>
-        <table border="1">
-            <tr>
-                <th>Description</th>
-                <th>Markup</th>
-                <th>Output</th>
-            </tr>
-
-            <tbody>
-                <tr>
-                    <td>Label</td>
-                    <td><p>&lt;label for=&quot;input-id&quot;&gt;Label:&lt;/label&gt;</p>
-                    </td>
-                    <td><label for ="input-id">Label:</label></td>
-                </tr>
-                <tr>
-                    <td>Input - Textbox</td>
-                    <td><p>&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;</p>
-                    </td>
-                    <td><input type= "text" name="name"></td>
-                </tr>
-                <tr>
-                    <td>Input - Number</td>
-                    <td><p>&lt;input type=&quot;number&quot; name=&quot;name&quot;&gt;</p></td>
-                    <td><input type= "number" name="name"></td>
-                </tr>
-                <tr>
-                    <td>Input - Password</td>
-                    <td><p>&lt;input type=&quot;password&quot; name=&quot;name&quot;&gt;</p></td>
-                    <td><input type= "password" name="name"></td>
-                </tr>
-                <tr>
-                    <td>Input - Checkbox</td>
-                    <td><p>&lt;input type=&quot;checkbox&quot; name=&quot;name&quot;&gt; Check me</p></td>
-                    <td><input type= "checkbox" name="name"> Check me</td>
-                </tr>
-                <tr>
-                    <td>Input - Radio</td>
-                    <td><p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 1</p>
-                        <p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 2</p>
-                    </td>
-                    <td><input type= "radio" name="name"> Option 1
-                    <input type= "radio" name="name"> Option 2
-                    </td>
-                </tr>
-                <tr>
-                    <td>Input - Submit</td>
-                    <td><p>&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</p></td>
-                    <td>	
-                        <input type="submit" value="Submit"></td>
-                </tr>
-                <tr>
-                    <td>Input - Button</td>
-                    <td><p>&lt;input type=&quot;button&quot; value=&quot;Click Me&quot;&gt;</p></td>
-                    <td><input type="button" value="Click Me"></td>
-                </tr>
-                <tr>
-                    <td>Select</td>
-                    <td><p>
-                        &lt;select name=&quot;name&quot;&gt;<br>
-                        &nbsp;&nbsp;&lt;option value=&quot;option1&quot;&gt;Option 1&lt;/option&gt;<br>
-                        &nbsp;&nbsp;&lt;option value=&quot;option2&quot;&gt;Option 2&lt;/option&gt;<br>
-                        &nbsp;&nbsp;&lt;option value=&quot;option3&quot;&gt;Option 3&lt;/option&gt;<br>
-                        &lt;/select&gt;
-                    </p></td>
-                    <td><select name="name">
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
-                    </select></td>
-                </tr>
-                <tr>
-                    <td>Textarea</td>
-                    <td><p>
-                        &lt;textarea name=&quot;name&quot;&gt;Textarea here&lt;/textarea&gt;
-                    </p></td>
-                    <td><textarea name="name">Textarea here</textarea></td>
-                </tr>
-            </tbody>
-        </table>
+        </div>
+        
 
     </body>
 </html>
