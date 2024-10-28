@@ -12,16 +12,7 @@
     border-right: 3px solid gray;
 }
 
-/* table {
-    width: 110%;
-    border-collapse: collapse;
-    table-layout: fixed;
-}
 
-
-.tableOut{
-    width: 100%;
-} */
 
 .sidebar nav a {
     display: block;
@@ -54,5 +45,16 @@
   .container {
     margin: 0 13%;
 }
+
+table {
+    width: 110%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.tableOut{
+    width: 100%;
+} 
 
 
