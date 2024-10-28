@@ -18,6 +18,15 @@
     table-layout: fixed;
 }
 
+
+.container {
+    margin: 0 13%;
+}
+
+.tableOut{
+    width: 100%;
+} */
+
 .sidebar nav a {
     display: block;
     color: black;
@@ -46,13 +55,5 @@
     color: #818181;
 
   }
-
-.container {
-    margin: 0 13%;
-}
-
-.tableOut{
-    width: 100%;
-} */
 
 
