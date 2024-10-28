@@ -38,6 +38,7 @@
     padding: 0%;
     text-decoration: none;
     color: #818181;
+    font-family: "Open Sans";
   }
 
   .container {
@@ -71,4 +72,7 @@ table iframe {
     width: 100%;
 }
 
+.code {
+    font-family: "Code";
+}
 

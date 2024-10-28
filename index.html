@@ -7,7 +7,7 @@
            <link rel="stylesheet" href="style.css">
            <link rel="preconnect" href="https://fonts.googleapis.com">
            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
            <title>PRIN135-Prelim Exam</title>
     </head>
     <body>
@@ -107,27 +107,25 @@
                     <tbody>
                         <tr>
                             <td>Paragraph</td>
-                            <code>
-                                <td>&lt;p&gt;This is paragraph&lt;p&gt;</td>
-                            </code>
+                                <td class="code">&lt;p&gt;This is paragraph&lt;p&gt;</td>
                             <td><p>This is paragraph</p></td>
                         </tr>
     
                         <tr>
                             <td>Span</td>
-                            <td>&lt;span&gt;This is span. &lt;/span&gt;</td>
+                            <td class="code">&lt;span&gt;This is span. &lt;/span&gt;</td>
                             <td>This is span.</td>
                         </tr>
     
                         <tr>
                             <td>Link</td>
-                            <td>&lt;a href ="#"&gt;This is a link &lt;/a href "#"&gt;</td>
+                            <td class="code">&lt;a href ="#"&gt;This is a link &lt;/a href "#"&gt;</td>
                             <td><a href="#">This is a link </a></td>
                         </tr>
     
                         <tr>
                             <td>Ordered List</td>
-                            <td>&lt;ol&gt;
+                            <td class="code">&lt;ol&gt;
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 1&lt;/li&gt;
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 2&lt;/li&gt;
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Step 3&lt;/li&gt;
@@ -141,7 +139,7 @@
     
                         <tr>
                             <td>Unordered List</td>
-                            <td>
+                            <td class="code">
                                 &lt;ul&gt;
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;
@@ -160,7 +158,7 @@
     
                         <tr>
                             <td>Horizontal Rule</td>
-                            <td>This content is above the Horizontal Rule <br>
+                            <td class="code">This content is above the Horizontal Rule <br>
                                 &lt;hr&gt; <br>
                                 This content is below the Horizontal rule
                             </td>
@@ -172,18 +170,18 @@
     
                         <tr>
                             <td>Break Line</td>
-                            <td>This content has a &lt;br&gt; break line.</td>
+                            <td class="code">This content has a &lt;br&gt; break line.</td>
                             <td>This content has <br> break line. </td>
                         </tr>
     
                         <tr>
                             <td>Performat Text</td>
-                            <td>&lt;pre&gt; This content preserves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; white spaces and break lines. </td>
+                            <td class="code">&lt;pre&gt; This content preserves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; white spaces and break lines. </td>
                             <td><pre>This contetnt preserves         white spaces and breakilines.</pre></td>
                         </tr>
     
                         <td>Computer Code</td>
-                        <td>&lt;code&gt;
+                        <td class="code">&lt;code&gt;
                             <br> &nbsp;&nbsp;&nbsp;console.WriteLine("Hello World!");
                             <br>&lt;/code&gt;
                         </td>
@@ -212,19 +210,19 @@
                     <tbody>
                         <tr>
                             <td>Bold/Strong</td>
-                            <td>&lt;strong&gt;Bold Text&lt;/strong&gt;</td>
+                            <td class="code">&lt;strong&gt;Bold Text&lt;/strong&gt;</td>
                             <td><strong>Emphasized Text</strong></td>
                         </tr>
     
                         <tr>
                             <td>Italized/Emphasized</td>
-                            <td>&lt;em&gt;This is emphasized text&lt;/em&gt;</td>
+                            <td class="code">&lt;em&gt;This is emphasized text&lt;/em&gt;</td>
                             <td><em>Emphasized Text</em></td>
                         </tr>
     
                         <tr>
                             <td>Small Text</td>
-                            <td>This is normal text. <br>
+                            <td class="code">This is normal text. <br>
                             &lt;small&gt;This is smaller text &lt;/small&gt;
                             </td>
                             <td>This is normal size text. <br><small>This is smaller text.</small></td>
@@ -232,32 +230,32 @@
     
                         <tr>
                             <td>Marked Text</td>
-                            <td>This is a &lt;mark&gt;marked &lt;/mark&gt; </td>
+                            <td class="code">This is a &lt;mark&gt;marked &lt;/mark&gt; </td>
                             <td>This is a <mark>marked</mark></td>
                         </tr>
     
     
                         <tr>
                             <td>Deleted text</td>
-                            <td>This is a &lt;del&gt;deleted text &lt;/del&gt;</td>
+                            <td class="code">This is a &lt;del&gt;deleted text &lt;/del&gt;</td>
                             <td>This is a <del>deleted</del> text</td>
                         </tr>
     
                         <tr>
                             <td>Inserted Text</td>
-                            <td>This is a &lt;ins&gt;inserted &lt;/ins&gt;</td>
+                            <td class="code">This is a &lt;ins&gt;inserted &lt;/ins&gt;</td>
                             <td>This an <ins>inserted</ins>text</td>
                         </tr>
     
                         <tr>
                             <td>Subscript Text</td>
-                            <td>This is a &lt;sub&gt;subscripted &lt;/sub&gt;</td>
+                            <td class="code">This is a &lt;sub&gt;subscripted &lt;/sub&gt;</td>
                             <td>This is a <sub>subscripted text</sub></td>
                         </tr>
     
                         <tr>
                             <td>Superscript</td>
-                            <td>This is a &lt;sup&gt;superscripted &lt;/sup&gt;</td>
+                            <td class="code">This is a &lt;sup&gt;superscripted &lt;/sup&gt;</td>
                             <td>This is a <sup>superscripted</sup> text</td>
                         </tr>
                     </tbody>
@@ -278,7 +276,7 @@
                     <tbody>
                         <tr>
                             <td>Image</td>
-                            <td>
+                            <td class="code">
                                 &lt;img src="source.jpg" alt="alternate text&gt;"
                             </td>
                             <td>
@@ -287,14 +285,14 @@
                         </tr>
                         <tr>
                             <td>Video</td>
-                            <td>
+                            <td class="code">
                                 &lt;video width="320" height="240" controls&gt; <br>
                                      &lt;source src="source.mp4" type="video/mp4"&gt; <br>
                                      &lt;source src="source.ogg" type="video/ogg"&gt; <br>
                                      Your browser does not support the video tag. <br>
                                 &lt;/video&gt;
                             </td>
-                            <td>
+                            <td class="code">
                                 <video width="320" height="240" controls>
                                     <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
                                     <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.ogg" type="video/ogg">
@@ -304,7 +302,7 @@
                         </tr>
                         <tr>
                             <td>Audio</td>
-                            <td>
+                            <td class="code">
                                 &lt;audio controls&gt; <br>
                                      &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
                                      &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
@@ -321,7 +319,7 @@
                         </tr>
                         <tr>
                             <td>IFrame</td>
-                            <td>
+                            <td class="code">
                                 &lt;iframe src="url"&gt;&lt;/iframe&gt;
                             </td>
                             <td>
@@ -347,8 +345,8 @@
                     <tbody>
                         <tr>
                             <td>Table</td>
-                            <td>&lt;table&gt;&lt;/table&gt;</td>
-                            <td rowspan="3">
+                            <td class="code">&lt;table&gt;&lt;/table&gt;</td>
+                            <td class="code" rowspan="3">
                                 <br>
                                 &lt;table border="1"&gt;<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
@@ -378,18 +376,18 @@
     
                         <tr>
                             <td>Table Row</td>
-                            <td>&lt;tr&gt;&lt;/tr&gt;</td>
+                            <td class="code">&lt;tr&gt;&lt;/tr&gt;</td>
                         </tr>
     
                         <tr>
                             <td>Table Data</td>
-                            <td>&lt;td&gt;&lt;/td&gt;</td>
+                            <td class="code">&lt;td&gt;&lt;/td&gt;</td>
                         </tr>
     
                         <tr>
                             <td>Table Head</td>
-                            <td>&lt;thead&gt;&lt;/thead&gt;</td>
-                            <td rowspan="4">
+                            <td class="code">&lt;thead&gt;&lt;/thead&gt;</td>
+                            <td class="code" rowspan="4">
                                 <br>
                                 &lt;table border="1"&gt;<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;<br>
@@ -446,17 +444,17 @@
     
                         <tr>
                             <td>Table Head Cell</td>
-                            <td>&lt;th&gt;&lt;/th&gt;</td>
+                            <td class="code">&lt;th&gt;&lt;/th&gt;</td>
                         </tr>
     
                         <tr>
                             <td>Table Body</td>
-                            <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+                            <td class="code">&lt;tbody&gt;&lt;/tbody&gt;</td>
                         </tr>
     
                         <tr>
                             <td>Table Footer</td>
-                            <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                            <td class="code">&lt;tfoot&gt;&lt;/tfoot&gt;</td>
                         </tr>
                     </tbody>
                 </table>
@@ -474,54 +472,54 @@
                 <tbody>
                     <tr>
                         <td>Label</td>
-                        <td><p>&lt;label for=&quot;input-id&quot;&gt;Label:&lt;/label&gt;</p>
+                        <td class="code"><p>&lt;label for=&quot;input-id&quot;&gt;Label:&lt;/label&gt;</p>
                         </td>
                         <td><label for ="input-id">Label:</label></td>
                     </tr>
                     <tr>
                         <td>Input - Textbox</td>
-                        <td><p>&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;</p>
+                        <td class="code"><p>&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;</p>
                         </td>
                         <td><input type= "text" name="name"></td>
                     </tr>
                     <tr>
                         <td>Input - Number</td>
-                        <td><p>&lt;input type=&quot;number&quot; name=&quot;name&quot;&gt;</p></td>
+                        <td class="code"><p>&lt;input type=&quot;number&quot; name=&quot;name&quot;&gt;</p></td>
                         <td><input type= "number" name="name"></td>
                     </tr>
                     <tr>
                         <td>Input - Password</td>
-                        <td><p>&lt;input type=&quot;password&quot; name=&quot;name&quot;&gt;</p></td>
+                        <td class="code"><p>&lt;input type=&quot;password&quot; name=&quot;name&quot;&gt;</p></td>
                         <td><input type= "password" name="name"></td>
                     </tr>
                     <tr>
                         <td>Input - Checkbox</td>
-                        <td><p>&lt;input type=&quot;checkbox&quot; name=&quot;name&quot;&gt; Check me</p></td>
+                        <td class="code"><p>&lt;input type=&quot;checkbox&quot; name=&quot;name&quot;&gt; Check me</p></td>
                         <td><input type= "checkbox" name="name"> Check me</td>
                     </tr>
                     <tr>
                         <td>Input - Radio</td>
-                        <td><p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 1</p>
+                        <td class="code"><p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 1</p>
                             <p>&lt;input type=&quot;radio&quot; name=&quot;name&quot;&gt; Option 2</p>
                         </td>
-                        <td><input type= "radio" name="name"> Option 1
+                        <td class="code"><input type= "radio" name="name"> Option 1
                         <input type= "radio" name="name"> Option 2
                         </td>
                     </tr>
                     <tr>
                         <td>Input - Submit</td>
-                        <td><p>&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</p></td>
+                        <td class="code"><p>&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</p></td>
                         <td>	
                             <input type="submit" value="Submit"></td>
                     </tr>
                     <tr>
                         <td>Input - Button</td>
-                        <td><p>&lt;input type=&quot;button&quot; value=&quot;Click Me&quot;&gt;</p></td>
+                        <td class="code"><p>&lt;input type=&quot;button&quot; value=&quot;Click Me&quot;&gt;</p></td>
                         <td><input type="button" value="Click Me"></td>
                     </tr>
                     <tr>
                         <td>Select</td>
-                        <td><p>
+                        <td class="code"><p>
                             &lt;select name=&quot;name&quot;&gt;<br>
                             &nbsp;&nbsp;&lt;option value=&quot;option1&quot;&gt;Option 1&lt;/option&gt;<br>
                             &nbsp;&nbsp;&lt;option value=&quot;option2&quot;&gt;Option 2&lt;/option&gt;<br>
@@ -536,7 +534,7 @@
                     </tr>
                     <tr>
                         <td>Textarea</td>
-                        <td><p>
+                        <td class="code"><p>
                             &lt;textarea name=&quot;name&quot;&gt;Textarea here&lt;/textarea&gt;
                         </p></td>
                         <td><textarea name="name">Textarea here</textarea></td>
