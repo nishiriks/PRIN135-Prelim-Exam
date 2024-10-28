@@ -67,4 +67,8 @@ table video {
     width: 100%;
 }
 
+table iframe {
+    width: 100%;
+}
+
 
