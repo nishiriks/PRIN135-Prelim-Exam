@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
     background-color: #f1f1f1;
+    scroll-behavior: smooth;
 }
 .sidebar{
     width: 200px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 0;
     border-right: 1px solid gray;
 }
