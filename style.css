@@ -86,7 +86,6 @@ table iframe {
 }
 
 
-
 @media (max-width: 425px) {
     .sidebar {
         width: 100%;
@@ -106,3 +105,16 @@ table iframe {
     } 
 
 }
+
+@media (max-width: 768px) {
+    
+    .sidebar {      
+        overflow: scroll;
+    }
+    .sidebar nav a {
+        padding: 20px;
+    }   
+    .container {
+        overflow-x: auto;
+    }
+}    
