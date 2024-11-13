@@ -48,6 +48,11 @@
     font-family: "Open Sans";
     overflow: hidden;
 }
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
 
 table {
     width: 110%;
