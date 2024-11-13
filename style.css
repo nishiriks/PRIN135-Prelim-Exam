@@ -20,7 +20,7 @@
 .sidebar nav a {
     display: block;
     color: black;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
     font-family: "Poppins";
   }
@@ -43,8 +43,10 @@
   }
 
   .container {
-    margin: 0 13%;
+    margin-left: 220px; 
+    padding: 20px;
     font-family: "Open Sans";
+    overflow: hidden;
 }
 
 table {
