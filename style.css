@@ -75,14 +75,8 @@ table {
     font-family: "Open Sans";
 }
 
-table img {
-    width: 100%;
-}
-
-table video {
-    width: 100%;
-}
-
+table img,
+table video,
 table iframe {
     width: 100%;
 }
